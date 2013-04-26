@@ -21,7 +21,7 @@
   <body ng-controller="MyController">
     Leave a message:<br>     
     <input type="text" ng-model="newMessage">
-    <input type="submit" ng-click="add()" value="new message">
+    <input type="submit" ng-click="add()" value="New Message">
     <br>
     Messages: <br>
     <ul>
@@ -29,6 +29,9 @@
         {{message}}
       </li>
     </ul>
+    Add an image:<br>
+    <input type="text" ng-model="image">
+   <!--- <img src=""->>> --->
   </body>
   
 </html>
